@@ -7,6 +7,8 @@
   --blue: #0053d6;
   --yellow: #ffdb13;
   --sectionBg: #F0F5F5;
+  --col1Bg: #FFE6F0;
+  --col2Bg: #D4FFED;
 }
 header {
   width: 100px;
@@ -129,6 +131,10 @@ button {
 section {
   height: auto;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /* padding-left: 7.4%; */
 }
 .about{
@@ -139,8 +145,9 @@ section {
   align-items: center;
   justify-content: space-between;
   color: var(--blue);
-  margin-left: 27%;
+  margin-left: 10%;
   margin-top: 4.2em;
+  margin-bottom: 4.2em;
 }
 .about h1{
   font-size: 26px;
@@ -153,7 +160,40 @@ section {
   border-top: 1px solid var(--blue);
 }
 .blogs{
-  height: 400px;
-  width: 400px;
+  height: auto;
+  width: 95%;
   background-color: #ffdb13;
+  margin-left: 4.8%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.blogs .col1{
+  height: 581px;
+  width: 544px;
+  margin-left: 2em;
+  background-color: var(--col1Bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.blogs .col1:hover{
+  height: 581px;
+  width: 544px;
+  margin-left: 2em;
+  background-color: var(--col1Bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.col1 img{
+  height: 306px;
+  width: 544px;
+}
+.blogs .col2{
+  height: 581px;
+  width: 544px;
+  background-color: var(--col2Bg);
 }
