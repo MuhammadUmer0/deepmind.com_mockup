@@ -129,7 +129,7 @@ button {
 section {
   height: auto;
   width: 100%;
-  padding-left: 7.4%;
+  /* padding-left: 7.4%; */
 }
 .about{
   height: 200px;
@@ -139,7 +139,7 @@ section {
   align-items: center;
   justify-content: space-between;
   color: var(--blue);
-  margin-left: 20%;
+  margin-left: 27%;
   margin-top: 4.2em;
 }
 .about h1{
@@ -152,4 +152,8 @@ section {
   width: 100px;
   border-top: 1px solid var(--blue);
 }
-
+.blogs{
+  height: 400px;
+  width: 400px;
+  background-color: #ffdb13;
+}
