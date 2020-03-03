@@ -164,7 +164,6 @@ section {
 .blogs{
   height: auto;
   width: 95%;
-  background-color: #ffdb13;
   margin-left: 4.8%;
   display: flex;
   justify-content: space-around;
@@ -249,8 +248,7 @@ section {
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  background-color: yellow;
+  justify-content: space-around;
 }
 .col2 .btnRow{
   display: flex;
@@ -289,4 +287,15 @@ section {
   background-color: var(--blue);
   border-radius: 50%;
   border: 1px solid var(--blue);
+}
+.btnArrow{
+  height: 28px;
+  width: 28px;
+  background-color: var(--yellow);
+  
+  /* background-image: url(images/right.svg); */
+
+}
+.btnArrow svg{
+  fill: var(--blue);
 }
