@@ -257,6 +257,36 @@ section {
   justify-content: space-between;
 }
 .btnDownload{
+  width: 136px;
+  height: 30px;
   background-color: white;
   color: var(--blue);
+  border: 1px solid var(--blue);
+  transition: .15s;
+}
+.btnDownload:hover{
+  width: 136px;
+  height: 30px;
+  background-color: var(--yellow);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  letter-spacing: 2px;
+}
+.btnInformation{
+  height: 28px;
+  width: 28px;
+  color: var(--blue);
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid var(--blue);
+  transition: .15s;
+  text-transform: lowercase;
+}
+.btnInformation:hover{
+  height: 28px;
+  width: 28px;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 50%;
+  border: 1px solid var(--blue);
 }
