@@ -292,9 +292,16 @@ section {
   height: 28px;
   width: 28px;
   background-color: var(--yellow);
-
-  /* background-image: url(images/right.svg); */
 }
 .btnArrow svg {
   fill: var(--blue);
+}
+
+.news{
+  height:635px;
+  width: 80%;
+  background-color: white;
+  margin-left: 6.5em;
+  margin-top: 3em;
+  display: flex;
 }
