@@ -10,6 +10,8 @@
   --col1Bg: #ffe6f0;
   --col2Bg: #d4ffed;
   --col1P: #123693;
+  --guideBeidge: #FFEACC;
+  --guideBlue: #F0EBFF;
 }
 header {
   width: 100px;
@@ -162,7 +164,7 @@ section {
 }
 .blogs {
   height: auto;
-  width: 95%;
+  width: 87.5%;
   margin-left: 4.8%;
   display: flex;
   justify-content: space-around;
@@ -298,7 +300,7 @@ section {
 }
 .news{
   height:635px;
-  width: 80%;
+  width: 85%;
   background-color: white;
   margin-left: 6.5em;
   margin-top: 3em;
@@ -342,15 +344,46 @@ section {
 }
 .guides{
   height: 538px;
-  width: 80%;
-  background-color: black;
+  width: 85%;
   margin-left: 6.5em;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-between; 
 }
 .guides .col{
   height: 538px;
-  width: 520px;
-  background-color: brown;
+  width: 544px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.guides img{
+  width: 544px;
+  height: 306px;
+}
+.guides .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 494px;
+  height: 150px;
+  color: var(--blue);
+}
+.guides h2{
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.guides .beidge{
+  background-color: var(--guideBeidge);
+}
+.guides .blue{
+  background-color: var(--guideBlue);
+}
+.guides p{
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
