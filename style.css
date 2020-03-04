@@ -169,7 +169,6 @@ section {
   align-items: center;
   color: var(--blue);
   margin-top: 3em;
-  background-color: var(--yellow);
 }
 .blogs .col1 {
   height: 581px;
@@ -304,4 +303,29 @@ section {
   margin-left: 6.5em;
   margin-top: 3em;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news .col{
+  height: 635px;
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--blue);
+  align-items: center;
+}
+.news .content{
+  height: 272px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.news h1{
+  font-size: 52px;
+  line-height: 60px;
+  font-weight: 600;
+  color: var(--blue);
 }
