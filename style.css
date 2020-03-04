@@ -292,10 +292,10 @@ section {
   width: 28px;
   background-color: var(--yellow);
 }
-.btnArrow svg {
-  fill: var(--blue);
+.btnArrow img {
+  height: 28px;
+  width: 28px;
 }
-
 .news{
   height:635px;
   width: 80%;
@@ -305,27 +305,52 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 3em;
 }
 .news .col{
   height: 635px;
   width: 45%;
   display: flex;
   justify-content: space-around;
-  background-color: var(--blue);
   align-items: center;
 }
 .news .content{
   height: 272px;
   width: 100%;
-  background-color: yellow;
+  padding-left: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* align-items: center; */
 }
 .news h1{
   font-size: 52px;
   line-height: 60px;
   font-weight: 600;
   color: var(--blue);
+}
+.news p{
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+  color: var(--col1P);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.news .BgImg img{
+  height: 635px;
+  width: 80%;
+}
+.guides{
+  height: 538px;
+  width: 80%;
+  background-color: black;
+  margin-left: 6.5em;
+  display: flex;
+  justify-content: space-between;
+
+}
+.guides .col{
+  height: 538px;
+  width: 520px;
+  background-color: brown;
 }
