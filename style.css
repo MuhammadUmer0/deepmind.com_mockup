@@ -12,6 +12,7 @@
   --col1P: #123693;
   --guideBeidge: #FFEACC;
   --guideBlue: #F0EBFF;
+  --visionBg: #14234B;
 }
 header {
   width: 100px;
@@ -386,4 +387,9 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.vision{
+  width: 80%;
+  height: 388px;
+  background-color: var(--visionBg);
 }
