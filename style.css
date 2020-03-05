@@ -390,7 +390,7 @@ section {
 }
 .vision{
   width: 85%;
-  height: 350px;
+  height: 350``px;
   background-color: var(--visionBg);
   margin-left: 6.5em;
   margin-top: 3em;
