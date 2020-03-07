@@ -486,3 +486,9 @@ section {
   background-color: var(--red);
   color: white;
 }
+.document2 p{
+  color: white;
+}
+.greenBg{
+  background-color: var(--col2Bg);
+}
