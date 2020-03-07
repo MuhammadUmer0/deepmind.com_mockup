@@ -14,6 +14,7 @@
   --guideBlue: #F0EBFF;
   --visionBg: #14234B;
   --red: #E1144B;
+  --footerBlue: #14234B;
 }
 header {
   width: 100px;
@@ -491,4 +492,13 @@ section {
 }
 .greenBg{
   background-color: var(--col2Bg);
+}
+footer{
+  height: 674px;
+  width: 92.7%;
+  margin-top: 3em;
+  margin-left: 6em;
+  background-color: var(--footerBlue);
+  display: flex;
+  
 }
