@@ -13,6 +13,7 @@
   --guideBeidge: #FFEACC;
   --guideBlue: #F0EBFF;
   --visionBg: #14234B;
+  --red: #E1144B;
 }
 header {
   width: 100px;
@@ -203,7 +204,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: cadetblue;
 }
 .blogs h3 {
   font-size: 26px;
@@ -447,7 +447,7 @@ section {
   height: 635px;
   width: 85%;
   margin-left: 6.5em;
-  margin-top: 2em;
+  margin-top: 3em;
   background-image: url(images/re5rtK0N0WXVY8bsNbAv_s2l59nvO2K7UswyCMia16nwhtcV7aD6uQHWrpU2DyXgBAEF3KEQDY7YomClyw6HJ75a03f-Pvz7_rKWw2048.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -477,4 +477,12 @@ section {
 }
 .playbtn svg:hover{
   fill: white;
+}
+.blogs .pink{
+  background-color: var(--col1Bg);
+}
+.blogs .document2
+{
+  background-color: var(--red);
+  color: white;
 }
