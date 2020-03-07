@@ -504,18 +504,16 @@ footer{
   align-items: center;
 }
 footer .content{
-  height: 650px;
+  height: 674px;
   width: 90%;
-  background-color: var(--yellow);
   display: flex;
   flex-direction: column;
-  justify-content: space-around ;
+  justify-content: space-between;
   color: white;
 }
 .logoRow{
   width: 100%;
   height: 120px;
-  background-color: var(--blue);
   font-size: 30px;
   line-height: 18px;
   font-weight: 400;
@@ -523,14 +521,72 @@ footer .content{
   align-items: center;
 }
 footer .linksRows{
-  height: 194px;
+  height: 190px;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: brown;
 }
 footer .linkCols{
   height: 193px;
   width: 375px;
-  background-color: chocolate;
+}
+footer ul{
+  height: 193px;
+}
+footer li{
+  list-style-type: none;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 5px;
+}
+footer .links{
+  border-left: 1px solid var(--blue);
+  padding-left: 5px;
+}
+footer .heading{
+  padding-left: 0;
+  margin: 1em 0 0.7em 0;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  border: none;
+}
+footer a{
+  text-decoration: none;  
+  color: white;
+}
+footer a:hover{
+  color: var(--yellow);
+}
+footer .abouts{
+  height: 71px;
+  width: 100%;
+  border-top: 1px solid var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.abouts .footerLinks{
+  height: 71px;
+  width: 784px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;;
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 400;
+}
+.socialFooter{
+  height: 22px;
+  width: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialFooter img{
+  height: 15px;
+  width: 18px;
 }
